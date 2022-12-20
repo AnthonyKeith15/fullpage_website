@@ -6,22 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Full Page Website</title>
     <link rel="stylesheet" type="text/css" href="fullpage.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <script src="fullpage.js"></script>
     
 </head>
 
 <body>
     <div id="fullpage">
-        <div class="section">Some section</div>
-        <div class="section">Some section</div>
+        <div class="section" id="aboutme">
+            <div class="container">
+                <h1>BIG HEADING</h1>
+                <h2>SMALLER heading</h2>
+                <p>words on the Page Lorem ipsum dolor sit amet consectetur adipisicing elit. Error consequatur modi doloribus reprehenderit odit suscipit voluptatum enim saepe eligendi unde optio, tempore iure natus cumque officia nihil mollitia vitae cupiditate!</p> 
+            </div>
+        </div>
+        
+        
+        
+        <div class="section">
+            <h1>NEW WORDS</h1>
+            <h2>TRANSITION TESTING</h2>
+            <p>we optio, tempore iure natus cumque officia nihil mollitia vitae cupiditate!</p>
+        </div>
         <div class="section">Some section</div>
         <div class="section">Some section</div>
         <div class="section">Some section</div>
     </div>
 
-    <script src="fullpage.js"></script>
+    
     <script type="text/javascript">
         var myFullpage = new fullpage('#fullpage', {
-            sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff']
+            sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+            scrollingSpeed: 1200,
         });
     </script>
 </body>
