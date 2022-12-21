@@ -1,5 +1,5 @@
 body {
-    font-family: futura-pt-bold, sans-serif;
+    font-family: 'Rubik Mono One', monospace;
 }
 
 /* Nav Bar*/
@@ -31,12 +31,7 @@ nav ul {
 
 /* General Body */
 h1 {
-    color: white;
-}
-
-.home-page h1,
-.about-me h1{
-    color: gray;
+    color: #000;
 }
 
 h2 {
@@ -58,7 +53,7 @@ p {
 .input-group {
     margin-bottom: 30px;
     position: relative;
-    color: #C3E0E5;
+    color: #000;
     overflow: hidden;
 }
 i {
@@ -69,10 +64,11 @@ input, textarea {
     min-width: 600px;
     padding: 10px;
     outline: 0;
-    border: 1px solid #C3E0E5;
-    color: #C3E0E5;
+    border: 1px solid #000;
+    color: #000;
     background: transparent;
     font-size: 15px;
+    font-weight: lighter;
 }
 
 label {
@@ -81,15 +77,15 @@ label {
     left: 0;
     top: 0;
     padding: 10px;
-    color: #C3E0E5;
+    color: #000;
     cursor: text;
 }
 button {
     padding: 10px 0;
-    color: #C3E0E5;
+    color: black;
     outline: none;
     background: transparent;
-    border: 1px solid #C3E0E5;
+    border: 1px solid #000;
     width: 100%;
     cursor: pointer;
 }
