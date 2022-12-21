@@ -7,7 +7,6 @@
     <title>Full Page Website</title>
     <link rel="stylesheet" type="text/css" href="fullpage.css">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
     <script src="fullpage.js"></script>
     
 </head>
@@ -15,31 +14,40 @@
 <body>
     <div id="fullpage">
         <div class="section" id="aboutme">
-            <div class="container">
-                <h1>BIG HEADING</h1>
-                <h2>SMALLER heading</h2>
-                <p>words on the Page Lorem ipsum dolor sit amet consectetur adipisicing elit. Error consequatur modi doloribus reprehenderit odit suscipit voluptatum enim saepe eligendi unde optio, tempore iure natus cumque officia nihil mollitia vitae cupiditate!</p> 
+            <div class="home-page">
+                <h1>Anthony Keith</h1>
+            
             </div>
         </div>
         
         
         
         <div class="section">
-            <h1>NEW WORDS</h1>
-            <h2>TRANSITION TESTING</h2>
-            <p>we optio, tempore iure natus cumque officia nihil mollitia vitae cupiditate!</p>
+            <div class="about-me">
+                <h1>About Me</h1>
+            </div>  
         </div>
-        <div class="section">Some section</div>
-        <div class="section">Some section</div>
-        <div class="section">Some section</div>
+        
+        <div class="section">
+            <div class="portfolio">
+                <h1>portfolio</h1>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="contact">
+                <h1>contact</h1>
+            </div>
+        </div>
     </div>
 
     
     <script type="text/javascript">
         var myFullpage = new fullpage('#fullpage', {
-            sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+            sectionsColor: ['#274472', '#C3E0E5', '#5885AF', '#41729F'],
             scrollingSpeed: 1200,
-        });
+        });  
     </script>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,5 +1,8 @@
+body {
+    font-family: futura-pt-bold, sans-serif;
+}
 h1 {
-    color: blue;
+    color: black;
 }
 
 h2 {
@@ -10,10 +13,8 @@ p {
     color: green;
 }
 
-.container {
+.section {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
