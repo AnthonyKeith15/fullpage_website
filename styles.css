@@ -55,3 +55,42 @@ p {
 
 /* Contact Form */
 
+.input-group {
+    margin-bottom: 30px;
+    position: relative;
+    color: #C3E0E5;
+    overflow: hidden;
+}
+i {
+    padding-right: 5px;
+}
+input, textarea {
+    width: 90%;
+    min-width: 600px;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #C3E0E5;
+    color: #C3E0E5;
+    background: transparent;
+    font-size: 15px;
+}
+
+label {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #C3E0E5;
+    cursor: text;
+}
+button {
+    padding: 10px 0;
+    color: #C3E0E5;
+    outline: none;
+    background: transparent;
+    border: 1px solid #C3E0E5;
+    width: 100%;
+    cursor: pointer;
+}
+
