@@ -1,8 +1,42 @@
 body {
     font-family: futura-pt-bold, sans-serif;
 }
+
+/* Nav Bar*/
+
+nav {
+    position: fixed;
+    top: 0vh;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    background-color: transparent;
+    padding-top: 3vh;
+    padding-right: 10px;
+}
+
+#github,
+#linkedin,
+#resume {
+    height: 6vh;
+    width: 4.75vw;
+}
+
+/* General Body */
 h1 {
-    color: black;
+    color: white;
+}
+
+.home-page h1,
+.about-me h1{
+    color: gray;
 }
 
 h2 {
@@ -18,3 +52,6 @@ p {
     justify-content: center;
     align-items: center;
 }
+
+/* Contact Form */
+

@@ -10,33 +10,61 @@
     <script src="fullpage.js"></script>
     
 </head>
+<nav>
+    <ul>
+        <img src="/fullpage_website/icons/github-svgrepo-com.svg" alt="github icon" id="github">
+        <img src="/fullpage_website/icons/linkedin-svgrepo-com.svg" alt="linkedin icon" id="linkedin">
+        <img src="/fullpage_website/icons/resume-svgrepo-com.svg" alt="resume icon" id="resume">
+        
+    </ul>
+</nav>
 
 <body>
     <div id="fullpage">
-        <div class="section" id="aboutme">
+        <div class="section" id="home">
             <div class="home-page">
-                <h1>Anthony Keith</h1>
+                <h1 id="name">Anthony Keith</h1>
+                <h2></h2>
             
             </div>
         </div>
         
         
         
-        <div class="section">
+        <div class="section" id="about">
             <div class="about-me">
                 <h1>About Me</h1>
             </div>  
         </div>
         
         <div class="section">
-            <div class="portfolio">
+            <div class="portfolio" id="portfolio">
                 <h1>portfolio</h1>
             </div>
         </div>
         
         <div class="section">
-            <div class="contact">
+            <div class="contact" id="contact">
                 <h1>contact</h1>
+                <form>
+                    <div class="input-group">
+                        <input type="text" id="name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="number" required>
+                        <label for="number">Phone Number</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" required>
+                        <label for="email">Email Address</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="8"></textarea>
+                        <label for="message">Leave Me A Message!</label>
+                    </div>
+                    <button type="submit">SUBMIT</button>                    
+                </form>
             </div>
         </div>
     </div>
